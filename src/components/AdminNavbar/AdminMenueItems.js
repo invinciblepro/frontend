@@ -1,0 +1,22 @@
+export const AdminMenuItems = [
+    {
+        title:'Home',
+        url:'http://localhost:3000/home',
+        cName:'nav-links'
+    },
+    {
+        title:'Products',
+        url:'http://localhost:3000/admin-products',
+        cName:'nav-links'
+    },
+    {
+        title:'Orders',
+        url:'http://localhost:3000/admin-order',
+        cName:'nav-links'
+    },
+    {
+        title:'Logout',
+        url:'http://localhost:3000/login',
+        cName:'nav-links'
+    }
+]
